@@ -31,6 +31,9 @@ end
 
 gem 'therubyracer', :require => 'v8'
 
+gem "haml"
+gem "haml-rails", :group => :development
+gem 'html2haml'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
