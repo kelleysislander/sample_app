@@ -1,0 +1,7 @@
+sudo install_name_tool -change libmysqlclient.18.dylib /usr/local/mysql-5.5.15-osx10.6-x86_64/lib/libmysqlclient.18.dylib /Volumes/MainHD/Users/billy/.rvm/gems/ruby-1.9.3-p374@sample_app/gems/mysql2-0.3.11/lib/mysql2/mysql2.bundle
+
+billy-pc ~/Projects/sample_app: rake db:create
+rake aborted!
+dlopen(/Volumes/MainHD/Users/billy/.rvm/gems/ruby-1.9.3-p374@sample_app/gems/mysql2-0.3.11/lib/mysql2/mysql2.bundle, 9): Library not loaded: libmysqlclient.18.dylib
+  Referenced from: /Volumes/MainHD/Users/billy/.rvm/gems/ruby-1.9.3-p374@sample_app/gems/mysql2-0.3.11/lib/mysql2/mysql2.bundle
+  Reason: image not found - /Volumes/MainHD/Users/billy/.rvm/gems/ruby-1.9.3-p374@sample_app/gems/mysql2-0.3.11/lib/mysql2/mysql2.bundle
