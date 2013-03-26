@@ -7,3 +7,5 @@ dlopen(/Volumes/MainHD/Users/billy/.rvm/gems/ruby-1.9.3-p374@sample_app/gems/mys
   Reason: image not found - /Volumes/MainHD/Users/billy/.rvm/gems/ruby-1.9.3-p374@sample_app/gems/mysql2-0.3.11/lib/mysql2/mysql2.bundle
 
 rails generate controller StaticPages home help --no-test-framework
+
+rails generate integration_test static_pages
